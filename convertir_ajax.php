@@ -1,4 +1,9 @@
 <?php 
+header("Content-Type:application/json");
+header("'Access-Control-Allow-Methods:GET, POST, PUT, DELETE");
+header("Access-Control-Max-Age:3628800");
+header("Access-Control-Allow-Origin:*");
+header("Content-Type:text/javascript; charset=utf8");
 
 if ($_POST['base']==2) {
 	$numero ='';

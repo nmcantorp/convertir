@@ -43,7 +43,8 @@ function convertir() {
         };
 
     $.ajax({
-    	url: 'convertir_ajax.php',
+    	url: 'http://www.sialen.com/webservice/convertir_ajax.php',
+        //url: 'convertir_ajax.php',
     	type: 'POST',
     	dataType: 'json',
     	data: parametros,
